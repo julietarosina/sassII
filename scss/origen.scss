@@ -1,0 +1,67 @@
+$colores:(
+    negro: rgb(0, 0, 0),
+    grisOscuro: rgb(61, 63, 60),
+    gris: rgb(138, 138, 138)
+);
+
+@each $name-color, $bgcolor in $colores{
+    .color-#{$name-color}{
+      color: $bgcolor
+    }
+}
+
+.card1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:white;
+    background-clip: border-box;
+    border: 3px solid black ;
+    border-radius: 0.25rem;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .card1-lincoln
+   {
+      @extend .card1;
+      background-color: white;
+      border:3px solid yellow;
+  }
+
+@mixin tamaño ($anchura, $altura){
+  width: $anchura;
+  height: $altura;
+}
+.cuadrado {
+  display: flex;
+  justify-content: center;
+}
+.medidaUno{background-color: #FFDD00;
+  text-align: center;
+  margin: 25px,;
+  margin-bottom: 0px ;
+  border:solid red 3px;
+  color:black; 
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif; }
+  .medidaUno{
+    @include tamaño (600px,100px);
+  }
+
+
+.medidaDos{
+  @include tamaño (300px,100px);
+  background-color: #FFDD00;
+  text-align: center;
+  margin: 25px,;
+  margin-bottom: 25px ;
+  border:solid red 3px;
+  color:black; 
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif; }
+
+
+
+

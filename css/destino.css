@@ -1,0 +1,55 @@
+.color-negro {
+  color: black; }
+
+.color-grisOscuro {
+  color: #3d3f3c; }
+
+.color-gris {
+  color: #8a8a8a; }
+
+.card1, .card1-lincoln {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: white;
+  background-clip: border-box;
+  border: 3px solid black;
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+  padding: 10px; }
+
+.card1-lincoln {
+  background-color: white;
+  border: 3px solid yellow; }
+
+.cuadrado {
+  display: flex;
+  justify-content: center; }
+
+.medidaUno {
+  background-color: #FFDD00;
+  text-align: center;
+  margin: 25px;
+  margin-bottom: 0px;
+  border: solid red 3px;
+  color: black;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.medidaUno {
+  width: 600px;
+  height: 100px; }
+
+.medidaDos {
+  width: 300px;
+  height: 100px;
+  background-color: #FFDD00;
+  text-align: center;
+  margin: 25px;
+  margin-bottom: 25px;
+  border: solid red 3px;
+  color: black;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif; }
