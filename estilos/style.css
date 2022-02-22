@@ -14,6 +14,7 @@
 .cuadrado{
     background-color: black;
 }
+h6 {padding: 10px;}
 
 .medidaUno{background-color: white;
     text-align: center;
@@ -66,9 +67,6 @@
     margin: 10px;
 }
 
-.sucursales{
-    padding: 30px;
-}
 
 .servicios{
     padding: 10px;
@@ -96,4 +94,65 @@ strong{font-weight: bold ;
     padding: 10px;
 
 }
-    
+ 
+.medida {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    background-color:#FFDD00 ;
+}
+.contenedorUno {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.medidaImagen {
+    display: grid;
+    justify-items: center ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tituloMedida {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 4px;
+
+}
+p{
+    padding: 4px;
+    color:black; 
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+article {
+    margin: 15px;
+
+}
+.imagenesSucursales
+{
+    width: 100%;
+    max-width: 680px;
+}
+.imagenesServicio {
+    width: 100%;
+    max-width: 280px;
+}
+
+.sucursalesBorde {
+    border-top: solid 3px #FFDD00;
+    border-bottom: solid 3px #FFDD00;
+    border-left: solid 3px #FFDD00;
+    border-right: solid 3px #FFDD00;
+}

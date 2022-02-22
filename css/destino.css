@@ -7,22 +7,14 @@
 .color-gris {
   color: #8a8a8a; }
 
-.card1, .card1-lincoln {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: white;
-  background-clip: border-box;
-  border: 3px solid black;
-  border-radius: 0.25rem;
-  margin-bottom: 10px;
-  padding: 10px; }
+.sucursalesBorde, .sucursalesBordeDos {
+  border-top: solid 3px #FFDD00;
+  border-bottom: solid 3px #FFDD00;
+  border-left: solid 3px #FFDD00;
+  border-right: solid 3px #FFDD00; }
 
-.card1-lincoln {
-  background-color: white;
-  border: 3px solid black; }
+.sucursalesBordeDos {
+  background-color: #f7f5f5; }
 
 .cuadrado {
   display: flex;
