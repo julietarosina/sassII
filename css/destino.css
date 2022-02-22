@@ -53,3 +53,9 @@
   color: black;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif; }
+
+strong {
+  padding: 10px; }
+  strong font {
+    font-weight: bold;
+    size: 30px; }

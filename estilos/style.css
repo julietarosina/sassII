@@ -67,7 +67,7 @@
 }
 
 .sucursales{
-    padding: 10px;
+    padding: 30px;
 }
 
 .servicios{
@@ -83,9 +83,12 @@
     margin:40px;}  
       
     
-strong {
-    font-weight: bold;
-    font-size: 30px;
-    padding: 10px;
+.btn {
+    transition: widht 1s, height 1s; 
+}
+.btn:hover {
+    width:215px ;
+        height:80px ;
+
 }
     
